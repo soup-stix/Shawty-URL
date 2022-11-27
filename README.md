@@ -22,3 +22,5 @@
 
 - Now enjoy the copied URL,
 ![image](https://user-images.githubusercontent.com/108626421/204132310-af1a4970-e463-4708-ad4d-18d943f42af0.png)
+
+- Click on Generate New to get new url,
