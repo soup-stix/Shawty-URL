@@ -1,2 +1,2 @@
-# Shawty-URL-
+# Shawty-URL
 Simple URL Shortener using Django. 
