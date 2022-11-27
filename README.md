@@ -1,5 +1,5 @@
 # Shawty-URL
-Simple URL Shortener using Django. 
+- Simple URL Shortener using Django. 
 ![image](https://user-images.githubusercontent.com/108626421/204132187-1eb94e14-5dda-4ec7-b4c2-218531839f02.png)
 
 ![image](https://user-images.githubusercontent.com/108626421/204132232-b6c33cf2-bcab-49a8-98b4-6b6c84b5bb62.png)
