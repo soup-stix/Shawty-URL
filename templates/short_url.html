@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %} 
+ <h1>Shawty URLs😋</h1>
+ {{ url }}
+ <div class="form">
+    <div class="form_input">
+    <input type="text" id="myInput" class="form__field" placeholder="Enter URL" />
+    <button type="button" id="submit" class="btn btn--primary btn--inside uppercase">Shorten</button>
+    </div>
+    <br>
+    <div class="tooltip" id="tooltip" style="visibility: hidden">
+      <h4 id="myText" style="text-decoration-line: underline; color: white">{{ url }}</h4>
+        <button type="button" class="btn btn--primary btn--" id="copy" onclick="copyAction">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          Copy
+        </button>
+    </div>
+    
+  </div>
+ 
+
+{% endblock %}

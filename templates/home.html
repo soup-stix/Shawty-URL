@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %} 
+ <h1>Shawty URLs😋</h1>
+ <div class="form">
+    <form method="post">
+      {% csrf_token %}
+    <input type="text" name="url" id="myInput" class="form__field" placeholder="Enter URL" />
+    <button type="submit" id="submit" class="btn btn--primary btn--inside uppercase">Shorten</button>
+    
+    <br>
+    {% if url %}
+    <div class="tooltip" id="tooltip">
+      <h4 id="myText" style="text-decoration-line: underline; color: white">{{ url }}</h4>
+        <button type="button" class="btn btn--primary btn--" id="copy" onclick="copyAction">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          Copy
+        </button>
+      <br>
+    </div>
+    <div class="tooltipsub">
+    <button type="submit" class="btn btn--primary btn--">
+      Generate New?
+    </button>
+  </div>
+    {% endif %}
+  </form>
+  </div>
+ 
+
+{% endblock %}
